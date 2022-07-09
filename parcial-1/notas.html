@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto en JS</title>
+</head>
+<body>
+    <p>Tipos de datos con Js</p>
+    <script>
+        // Declaración de variables
+        var nombre = "Alex";
+        var apellido = "Jiménez";
+        var edad = 30;
+        var fechaNacimiento = "01/01/1990";
+        var sueldo = 1000.50;
+        var casado = true;
+        var hijos = null;
+
+        // Imprimir las variables en la página
+        document.write("<p>Nombre: " + nombre + "</p>");
+        document.write("<p>Apellido: " + apellido + "</p>");
+        document.write("<p>Edad: " + edad + "</p>");
+        document.write("<p>Fecha de nacimiento: " + fechaNacimiento + "</p>");
+        document.write("<p>Sueldo: " + sueldo + "</p>");
+        document.write("<p>Casado: " + casado + "</p>");
+        document.write("<p>Hijos: " + hijos + "</p>");
+
+        // Validar el valor de casado
+        if(casado){
+             document.write("<p>Está casado</p>");
+        }else{
+            document.write("<p>No está casado</p>");
+        }
+    </script>
+</body>
+</html>
